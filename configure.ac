@@ -1,8 +1,8 @@
 dnl Required initializer
-AC_INIT
+AC_INIT(mod_auth_token, 1.0)
 
 dnl Automake initialization
-AM_INIT_AUTOMAKE(mod_auth_token, 1.0)
+AM_INIT_AUTOMAKE
 
 AC_PROG_MKDIR_P
 
